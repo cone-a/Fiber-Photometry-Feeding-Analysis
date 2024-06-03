@@ -15,7 +15,7 @@ import os
 import seaborn as sns 
 
 # Directory containing the files
-directory = 'D:/Fiber Photometry Food Restrict'
+directory = 'path_to_files'
 
 # Dictionaries to store DataFrames
 dfs_iso = {}
