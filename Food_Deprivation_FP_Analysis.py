@@ -151,7 +151,7 @@ ax.fill_between(to_plot['Time'], to_plot['zdFF'] - points_sem,
                    to_plot['zdFF'] + points_sem, alpha=0.15)
 ax.set_xlabel('Time (sec)')
 ax.set_ylabel('Z-Score')
-ax.set_title('Aggregrated 470 Signal')
+ax.set_title('Aggregrated 470 Signal Food Deprived')
 ax.margins(x=0)        
 
 
@@ -159,7 +159,7 @@ fig, ax = plt.subplots(figsize=(16, 10)) # you change dimensions of plot here Wi
 
 # Heatmap
 sns.heatmap(lined_up_points, cbar = True, xticklabels = False, yticklabels = False)
-ax.set_title('Aggregrated 470 Signal')
+ax.set_title('Aggregrated 470 Signal Food Deprived')
 #%%
 
 ######### ISOBESTIC SIGNAL ##########
@@ -220,14 +220,14 @@ ax.fill_between(to_plot['Time'], to_plot['zdFF'] - points_sem,
                    to_plot['zdFF'] + points_sem, alpha=0.15)
 ax.set_xlabel('Time (sec)')
 ax.set_ylabel('Z-Score')
-ax.set_title('Aggregrated 415 Signal')
+ax.set_title('Aggregrated 415 Signal Food Deprived')
 ax.margins(x=0)       
 
 fig, ax = plt.subplots(figsize=(16, 10)) # you change dimensions of plot here Width x Length
 
 # Plot heatmap
 sns.heatmap(lined_up_points, cbar = True, xticklabels = False, yticklabels = False)
-ax.set_title('Aggregrated 415 Signal')
+ax.set_title('Aggregrated 415 Signal Food Deprived')
 #%%
 
 
